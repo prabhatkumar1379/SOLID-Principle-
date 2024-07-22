@@ -23,3 +23,20 @@ Note:if we don't follow the SRP than we end up having
 <li>Difficult to Test</li>
 <li>Chance of duplicating the logic of other parts of the application</li>
 </ul>
+
+
+<hr>
+
+<h3><b>What is the Open-Closed Principle?</b></h3>
+
+<p>The Open-Closed Principle states that software entities such as modules, classes, functions, etc. should be open for extension, but closed for modification.</p>
+
+<p>Let us understand the above definition in simple words. Here we need to understand two things. The first thing is <b>Open for Extension</b> and the second thing is <b>Closed for Modification</b>. The Open for Extension means we need to design the software modules/classes in such a way that the new responsibilities or functionalities should be added easily when new requirements come. On the other hand, Closed for Modification means we should not modify the class/module until we find some bugs.</p>
+
+<p>The reason for this is, we have already developed a class/module and it has gone through the unit testing phase. So we should not have to change this as it affects the existing functionalities. In simple words, we can say that we should develop modules/classes in such a way that it should allow its behavior to be extended without altering its source code.</p>
+
+
+
+
+
+
