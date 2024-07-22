@@ -12,7 +12,8 @@
     </ul>
 
 <h3><b>1. What is the Single Responsibility Principle?</b></h3
-<p>The Single Responsibility Principle states that "Each software module or class should have only one reason to change." In other words, we can say that each module or class should have only one responsibility.</p>
+<p>The Single Responsibility Principle states that "Each software module or class should have only one reason to change.
+ " In other words, we can say that each module or class should have only one responsibility.</p>
 <p>
 We need to design the software so that everything in a class or module relates to a single responsibility. That does not mean your class should contain only one method or property; you can have multiple members (methods or properties) as long as they are related to a single responsibility or functionality. With the help of SRP in C#, the classes become smaller, cleaner, and easier to maintain.
 </p>
