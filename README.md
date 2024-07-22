@@ -37,6 +37,12 @@ Note:if we don't follow the SRP than we end up having
 
 
 
+<h3><b>Implementation Guidelines for the Open-Closed Principle</b></h3>
 
+<p>1. The easiest way to implement the Open-Closed Principle in C# is to add the new functionalities by creating new derived classes which should be inherited from the original base class.</p>
+
+<p>2. Another way is to allow the client to access the original class with an abstract interface.</p>
+
+<p>3.So, at any given point of time when there is a change in requirement or any new requirement comes, then instead of touching the existing functionality, it’s always better and suggested to create new derived classes and leave the original class implementation as it is.</p>
 
 
