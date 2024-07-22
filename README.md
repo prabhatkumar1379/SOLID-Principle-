@@ -17,3 +17,9 @@
 <p>
 We need to design the software so that everything in a class or module relates to a single responsibility. That does not mean your class should contain only one method or property; you can have multiple members (methods or properties) as long as they are related to a single responsibility or functionality. With the help of SRP in C#, the classes become smaller, cleaner, and easier to maintain.
 </p>
+Note:if we don't follow the SRP than we end up having 
+<ul>
+<li>Difficult to Understand</li>
+<li>Difficult to Test</li>
+<li>Chance of duplicating the logic of other parts of the application</li>
+</ul>
