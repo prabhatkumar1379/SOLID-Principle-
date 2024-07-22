@@ -1,7 +1,4 @@
-# SOLID-Principle-
-
-
-<h3>solid Principle </h3>
+#solid Principle
  <h2>SOLID Design Principles</h2>
  
 <h3><b>SOLID Design Principles</b></h3>
